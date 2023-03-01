@@ -1,0 +1,58 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "The Subtle Art Of Not Giving A Fuck",
+        "author": "Mark Manson",
+        "summary": "A counterintuitive Approach To Living A Good Life.",
+        "category": "Non-Fiction",
+        "image": "https://covers.openlibrary.org/b/id/8231990-M.jpg",
+        "price": 1500
+      },
+      {
+        "id": 2,
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "summary": "An Easy And Proven Wyto Build Good Habits and Break ad Ones. ",
+        "category": "Non-Fiction",
+        "image": "https://covers.openlibrary.org/b/id/12539702-M.jpg",
+        "price": "7000"
+      },
+      {
+        "id": "8",
+        "title": "A HUSBANDS PRICE",
+        "author": "Diana Hamilton",
+        "summary": "Two Loves Birds",
+        "category": "Romance",
+        "image": "https://covers.openlibrary.org/w/id/2407332-M.jpg",
+        "price": "1009"
+      },
+      {
+        "id": "10",
+        "title": "Boook",
+        "author": "Stephen King",
+        "summary": "Scary",
+        "category": "Thiller",
+        "image": "https://covers.openlibrary.org/w/id/8569284-M.jpg",
+        "price": "10000"
+      },
+      {
+        "id": "12",
+        "title": "CALCULUS",
+        "author": "Robert Ellis",
+        "summary": "Two Loves Birds",
+        "category": "Textbook",
+        "image": "https://covers.openlibrary.org/w/id/19874-M.jpg",
+        "price": 1800
+      },
+      {
+        "id": "13",
+        "title": "NATURE MATHEMATICS",
+        "author": "Karl j Smith",
+        "summary": "Mathematics",
+        "category": "Textbook",
+        "image": "https://covers.openlibrary.org/w/id/364010-M.jpg",
+        "price": "444422"
+      }
+    ]
+  }
