@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Switch, Route } from "react-router-dom"
+import Header from "./components/Header";
+import About from "./components/About";
+import Container from "./components/Container";
+import Home from "./components/Home";
 
-function App() {
+const App = () => {
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
+  const onToggleDarkMode = () => {
+    setIsDarkMode((isDarkMode) => !isDarkMode);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={isDarkMode ? "App" : "App light"}>
+      <Header isDarkMode={isDarkMode} onToggleDarkMode={onToggleDarkMode} />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/books">
+          <Container />
+        </Route>
+      </Switch>
     </div>
   );
-}
+};
 
 export default App;
