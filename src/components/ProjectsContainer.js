@@ -13,13 +13,13 @@ function ProjectsContainer() {
     useEffect(() => {
         let url;
         if (selectedCategory && searchQuery) {
-          url = `http://localhost:4000/projects?phase=${selectedCategory}&q=${encodeURI(searchQuery)}`;
+          url = `http://localhost:3000/projects?phase=${selectedCategory}&q=${encodeURI(searchQuery)}`;
         } else if (searchQuery) {
-          url = `http://localhost:4000/projects?q=${encodeURI(searchQuery)}`;
+          url = `http://localhost:3000/projects?q=${encodeURI(searchQuery)}`;
         } else if (selectedCategory) {
-          url = `http://localhost:4000/projects?category=${selectedCategory}`;
+          url = `http://localhost:3000/projects?category=${selectedCategory}`;
         } else {
-          url = "http://localhost:4000/projects";
+          url = "http://localhost:3000/projects";
         }
         fetch(url)
           .then((resp) => resp.json())
