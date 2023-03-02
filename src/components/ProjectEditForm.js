@@ -22,7 +22,7 @@ const initialState = {
 
 
   useEffect(() => {
-    fetch(`http://localhost:4000/projects/${id}`)
+    fetch(`http://localhost:3000/projects/${id}`)
       .then((res) => res.json())
       .then((project) => setFormData(project));
   }, [id]);
@@ -42,7 +42,7 @@ const initialState = {
       body: JSON.stringify(formData),
     };
 
-    fetch(`http://localhost:4000/projects/${id}`, configObj)
+    fetch(`http://localhost:3000/projects/${id}`, configObj)
       .then((resp) => resp.json())
       .then((updatedProj) => {
         onUpdateProject(updatedProj);
