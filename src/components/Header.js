@@ -9,15 +9,18 @@ const Header = ({ isDarkMode, onToggleDarkMode }) => {
           <h1 className="branding">
             <Link to="/">
               <span className="logo">{""}</span>
-              Community Library
+              Upendo Community Library
             </Link>
           </h1>
           <nav>
+          <NavLink className="button" exact to="/">
+              Home
+            </NavLink>
             <NavLink className="button" exact to="/books">
               Available Books
             </NavLink>
             <NavLink className="button" to="/books/new">
-              Add Book
+              Add A Book
             </NavLink>
             <NavLink className="button" to="/about">
               About Us

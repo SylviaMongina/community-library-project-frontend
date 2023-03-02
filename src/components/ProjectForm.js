@@ -79,10 +79,13 @@ const initialState = {
     
            <option>Select category</option>
            <option value="Non Fiction">Non Fiction</option>
-           <option value="Comic">Comic</option>
-           <option value="Thiller">Thriller</option>
-           <option value="Romance">Romance</option>
            <option value="Fiction">Fiction</option>
+           <option value="Christian Books">Christian Books</option>
+           <option value="Documentations and Reports">Documentations and Reports</option>
+           <option value="Children stories">Children stories</option>
+           <option value="CBC Books">CBC Books</option>
+           <option value="Romance">Romance</option>
+           
            <option value="TextBook">TextBook</option>
            </select>
     

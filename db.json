@@ -2,57 +2,78 @@
     "projects": [
       {
         "id": 1,
-        "title": "The Subtle Art Of Not Giving A Fuck",
-        "author": "Mark Manson",
-        "summary": "A counterintuitive Approach To Living A Good Life.",
+        "title": "Becoming",
+        "author": "Michelle Obama",
+        "summary": "A guided journal on discovering your voice",
         "category": "Non-Fiction",
-        "image": "https://covers.openlibrary.org/b/id/8231990-M.jpg",
-        "price": 1500
+        "image": "",
+        "price": 4500
       },
       {
         "id": 2,
-        "title": "Atomic Habits",
-        "author": "James Clear",
-        "summary": "An Easy And Proven Wyto Build Good Habits and Break ad Ones. ",
-        "category": "Non-Fiction",
-        "image": "https://covers.openlibrary.org/b/id/12539702-M.jpg",
-        "price": "7000"
-      },
-      {
-        "id": "8",
-        "title": "A HUSBANDS PRICE",
-        "author": "Diana Hamilton",
-        "summary": "Two Loves Birds",
+        "title": "One with you",
+        "author": "Sylvia Day",
+        "summary": "A crossfire novel. ",
         "category": "Romance",
-        "image": "https://covers.openlibrary.org/w/id/2407332-M.jpg",
-        "price": "1009"
+        "image": "",
+        "price": "3000"
       },
       {
-        "id": "10",
-        "title": "Boook",
-        "author": "Stephen King",
-        "summary": "Scary",
-        "category": "Thiller",
-        "image": "https://covers.openlibrary.org/w/id/8569284-M.jpg",
-        "price": "10000"
+      
+        "id": "3",
+        "title": "Spellbound",
+        "author": "Sylvia Day",
+        "summary": "Her desire becomes his pleasure",
+        "category": "Romance",
+        "image": "",
+        "price": "2500"
       },
       {
-        "id": "12",
-        "title": "CALCULUS",
-        "author": "Robert Ellis",
-        "summary": "Two Loves Birds",
+        
+        "id": "4",
+        "title": "How Beautiful We Were",
+        "author": "Imbolo Mbue",
+        "summary": "Behold the dreamers",
+        "category": "Non Fiction",
+        "image": "",
+        "price": "3200"
+      },
+      {
+         
+        "id": "5",
+        "title": "Think like a monk",
+        "author": "Jay Shetty",
+        "summary": "Train your mind for peace and purpose everyday",
+        "category": "Christian Books",
+        "image": "",
+        "price": "1300"
+      },
+      {
+        "id": "6",
+        "title": "Things fall apart",
+        "author": "Chinua Achebe",
+        "summary": "Modern Classic",
         "category": "Textbook",
-        "image": "https://covers.openlibrary.org/w/id/19874-M.jpg",
-        "price": 1800
+        "image": "",
+        "price": "600"
       },
       {
-        "id": "13",
-        "title": "NATURE MATHEMATICS",
-        "author": "Karl j Smith",
-        "summary": "Mathematics",
-        "category": "Textbook",
-        "image": "https://covers.openlibrary.org/w/id/364010-M.jpg",
-        "price": "444422"
-      }
+        "id": "7",
+        "title": "The Hair Dresser of Harare",
+        "author": "Tendai Hucbu",
+        "summary": "A refereshing story of life in contemporary Harare",
+        "category": "Documentation and Reports",
+        "image": "",
+        "price": "2399"
+      },
+      {
+      "id": "8",
+      "title": "Gifted Hands",
+      "author": "Ben Carson",
+      "summary": "The remarkable surgeon who gives children a second chance at life",
+      "category": "Non Fiction",
+      "image": "",
+      "price": "1500" 
+    }
     ]
   }
