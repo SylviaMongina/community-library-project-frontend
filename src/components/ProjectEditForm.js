@@ -10,7 +10,7 @@ const initialState = {
   category:""
   };
 
- const EditForm = ({ onUpdateProject }) => {
+ const ProjectEditForm = ({ onUpdateProject }) => {
   const [formData, setFormData] = useState(initialState);
   
   const {title, author, summary, price, image ,category} = formData;
@@ -73,7 +73,7 @@ const initialState = {
        />
        
 
-      <label htmlFor="summary">Book Summary</label>
+      <label htmlFor="summary">Summary</label>
        <textarea 
        id="summary" 
        name="summary"
@@ -92,14 +92,11 @@ const initialState = {
 
        <option>Select category</option>
        <option value="Non Fiction">Non Fiction</option>
-       <option value="Fiction">Fiction</option>
-       <option value="Motivational">Motivational</option>
-       <option value="Historical">Historical </option>
+       <option value="Comic">Comic</option>
+       <option value="Thiller">Thriller</option>
        <option value="Romance">Romance</option>
-       <option value="Devotional">Devotional</option>
+       <option value="Fiction">Fiction</option>
        <option value="TextBook">TextBook</option>
-       <option value="Reference Sources">Reference Sources</option>
-
        </select>
 
 
@@ -127,4 +124,4 @@ const initialState = {
   );
 };
 
-export default EditForm;
+export default ProjectEditForm;

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
-import Form from "./Form";
-import List from "./List";
-import EditForm from "./EditForm";
+import ProjectForm from "./ProjectForm";
+import ProjectList from "./ProjectList";
+import ProjectEditForm from "./ProjectEditForm";
 
 
-function Container() {
+function ProjectsContainer() {
     const [projects, setProjects] = useState([]);
     const [selectedCategory, setSelectedCategory] = useState("");
     const [searchQuery, setSearchQuery] = useState("");
@@ -48,17 +48,17 @@ function Container() {
         <>
           <Switch>
             <Route path="/books/:id/edit">
-              <EditForm
+              <ProjectEditForm
                 onUpdateProject={onUpdateProject}
               />
             </Route>
             <Route path="/books/new">
-              <Form onAddProject={onAddProject} />
+              <ProjectForm onAddProject={onAddProject} />
             </Route>
             <Route exact path="/books/:id">
             </Route>
              <Route path="/books/category/:category">
-              <List
+              <ProjectList
                 projects={projects}
                 onProjectDelete={onProjectDelete}
                 setSelectedCategory={setSelectedCategory}
@@ -66,7 +66,7 @@ function Container() {
                 />
             </Route>
             <Route path="/books">
-              <List
+              <ProjectList
                 projects={projects}
                 onProjectDelete={onProjectDelete}
                 setSelectedCategory={setSelectedCategory}
@@ -78,4 +78,4 @@ function Container() {
       )
     }
     
-    export default Container;
+    export default ProjectsContainer;

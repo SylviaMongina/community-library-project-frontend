@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Switch, Route } from "react-router-dom"
 import Header from "./components/Header";
 import About from "./components/About";
-import Container from "./components/Container";
+import ProjectsContainer from "./components/ProjectsContainer";
 import Home from "./components/Home";
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
           <About />
         </Route>
         <Route path="/books">
-          <Container />
+          <ProjectsContainer />
         </Route>
       </Switch>
     </div>

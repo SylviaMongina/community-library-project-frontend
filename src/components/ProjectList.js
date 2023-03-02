@@ -1,8 +1,8 @@
-import ListItem from "./ListItem";
+import ProjectListItem from "./ProjectListItem";
 import { useState, useEffect } from "react";
 import {useHistory, useParams, useRouteMatch, useLocation } from "react-router-dom";
 
-const List = ({
+const ProjectList = ({
   projects,
   onProjectEdit,
   onProjectDelete,
@@ -74,4 +74,4 @@ const List = ({
   );
 };
 
-export default List;
+export default ProjectList;

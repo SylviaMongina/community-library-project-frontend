@@ -8,8 +8,8 @@ const Header = ({ isDarkMode, onToggleDarkMode }) => {
         <header className="navigation">
           <h1 className="branding">
             <Link to="/">
-              <span className="logo">{""}</span>
-              Community Library
+              <span className="logo">{"📚"}</span>
+              Open Library
             </Link>
           </h1>
           <nav>

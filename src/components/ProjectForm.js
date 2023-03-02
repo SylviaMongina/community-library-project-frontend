@@ -10,7 +10,7 @@ const initialState = {
     category:""
   };
 
-  const Form = ({ onAddProject }) => {
+  const ProjectForm = ({ onAddProject }) => {
     const [formData, setFormData] = useState(initialState);
     const history = useHistory();
   
@@ -113,4 +113,4 @@ const initialState = {
       );
     };
     
-    export default Form;
+    export default ProjectForm;
