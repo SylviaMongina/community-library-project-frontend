@@ -8,19 +8,19 @@ const Header = ({ isDarkMode, onToggleDarkMode }) => {
         <header className="navigation">
           <h1 className="branding">
             <Link to="/">
-              <span className="logo">{"📚"}</span>
-              Open Library
+              <span className="logo">{""}</span>
+              Community Library
             </Link>
           </h1>
           <nav>
             <NavLink className="button" exact to="/books">
-              All Books
+              Available Books
             </NavLink>
             <NavLink className="button" to="/books/new">
               Add Book
             </NavLink>
             <NavLink className="button" to="/about">
-              About
+              About Us
             </NavLink>
             <button onClick={onToggleDarkMode}>{buttonTextContent}</button>
           </nav>
