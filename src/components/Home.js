@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <section className="box">
-      <h2 style={{ fontSize: "3rem" }}>View Favorite Books.</h2>
+      <h2 style={{ fontSize: "2rem" }}>Welcome .</h2>
     
       <h3>Recently Added Book:</h3>
       {recentProjects.map((project) => (
@@ -26,7 +26,25 @@ const Home = () => {
           View All Books
         </Link>
       </div>
+     
+     <section>
+     <h2>Our Services</h2>
+     <h3> Upendo Community Library offers the following services for free:</h3>
+     <ol>
+      <li> Library services </li>
+      <li>Career and business mentorship</li>
+      <li>Arts and sports mentorship</li>
+      <li>Social work support</li>
+     </ol>
+     </section>
+      <section>
+        <h1>CONTACT US</h1>
+        
+      </section>
+
+
     </section>
+  
   );
 };
 
