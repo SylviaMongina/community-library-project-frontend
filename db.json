@@ -6,7 +6,7 @@
         "author": "Michelle Obama",
         "summary": "A guided journal on discovering your voice",
         "category": "Non-Fiction",
-        "image": "",
+        "image": "public/images/becoming.jpeg",
         "price": 4500
       },
       {
@@ -15,7 +15,7 @@
         "author": "Sylvia Day",
         "summary": "A crossfire novel. ",
         "category": "Romance",
-        "image": "",
+        "image": "public/images/one with you.jpeg",
         "price": "3000"
       },
       {
@@ -25,7 +25,7 @@
         "author": "Sylvia Day",
         "summary": "Her desire becomes his pleasure",
         "category": "Romance",
-        "image": "",
+        "image": "public/images/spellbound.jpeg",
         "price": "2500"
       },
       {
@@ -35,7 +35,7 @@
         "author": "Imbolo Mbue",
         "summary": "Behold the dreamers",
         "category": "Non Fiction",
-        "image": "",
+        "image": "public/images/how beautiful we were.jpeg",
         "price": "3200"
       },
       {
@@ -54,7 +54,7 @@
         "author": "Chinua Achebe",
         "summary": "Modern Classic",
         "category": "Textbook",
-        "image": "",
+        "image": "public/images/things fall apart.jpeg",
         "price": "600"
       },
       {
@@ -63,7 +63,7 @@
         "author": "Tendai Hucbu",
         "summary": "A refereshing story of life in contemporary Harare",
         "category": "Documentation and Reports",
-        "image": "",
+        "image": "public/images/the hair dresser.jpeg",
         "price": "2399"
       },
       {
@@ -72,7 +72,7 @@
       "author": "Ben Carson",
       "summary": "The remarkable surgeon who gives children a second chance at life",
       "category": "Non Fiction",
-      "image": "",
+      "image": "public/images/gifted hands.jpeg",
       "price": "1500" 
     }
     ]
